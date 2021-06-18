@@ -1,6 +1,7 @@
 @media screen and (max-width: 1023px){
     .logoE{
         width: 110px;
+        margin-top: -150px;
     }
     .fiveGuys {
         flex-wrap: wrap;
@@ -26,5 +27,9 @@
     }
     .footer h1{
         font-size: 18px;
+    }
+    .firstInfo h1{
+        font-size: 20px;
+        padding: 10px;
     }
 }
