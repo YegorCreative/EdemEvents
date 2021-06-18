@@ -13,7 +13,7 @@
 @media screen and (max-width: 767px){
     .meesh{
         flex-wrap: wrap;
-        margin-top: 0;
+        margin-top: -240px;
     }
     .leftSide, .rightSide {
         width: 100%;
@@ -31,5 +31,17 @@
     .firstInfo h1{
         font-size: 20px;
         padding: 10px;
+    }
+    .smallNotice{
+        font-size: 16px;
+    }
+    iframe{
+        height: 1700px;
+    }
+
+}
+@media screen and (max-width: 424px){
+    .iFrame{
+        height:auto;
     }
 }
