@@ -44,4 +44,7 @@
     .iFrame{
         height:auto;
     }
+    .theAddres iframe {
+        height: 200px;
+    }
 }
