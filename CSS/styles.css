@@ -18,3 +18,202 @@ body {
     /*font-family: 'Righteous', cursive;*/
     font-family: 'Roboto', sans-serif;
 }
+.firstBox{
+    min-width: 320px;
+    height: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+.banner1{
+    min-width: 320px;
+    
+    width: 100%;
+}
+.firstInfo{
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 200px;
+    flex-direction: column;align-items: center;
+    text-align: center;
+}
+.logoE{
+width: 290px;
+}
+.firstInfo h1{
+    font-family: 'Righteous', cursive;
+}
+.meesh{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    margin-top: 170px;
+}
+.leftSide, .rightSide{
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    pad: 30px;
+    font-family: 'Righteous', cursive;
+    text-align: left;
+    padding: 30px;
+}
+.leftSide{
+    align-items: flex-end;
+}
+.rightSide{
+    align-items: flex-start;
+}
+.meeshFomenko{
+    width: 300px;
+}
+.lemon{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+}
+.flower{
+    width:320px ;
+}
+.fiveGuys{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.numberFive{
+    width: 320px;
+    height: 220px;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 120px;
+}
+.numberFive h1{
+    margin-top: 0;
+    font-family: 'Righteous', cursive;
+    font-size: 28px;
+}
+.numberFive p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.leaveFlower{
+    width: 100%;
+}
+.leaveFlower img {
+    width: 100%;
+}
+.smallNotice {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Righteous', cursive;
+    color: #2c641b;
+}
+.iFrame{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 25px;
+    height: 1550px;
+    background-color: #e4f2e4;
+    background-image: url(../Assets/leaveTheLeave.png);
+    background-size: 800px;
+    background-blend-mode: soft-light;
+}
+.theAddres {
+    width: 100%;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    box-sizing: border-box;
+    pad: 25px;
+
+}
+.seeYou {
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-image: url(../Assets/backgroundflower.png);
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+.seeYou h1 {
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-size: 50px;
+    color: #2c641b;
+    top: 100px;
+    width: 100%;
+    height: 100px;
+    z-index: 0;
+}
+.venmo{
+    width: 200px;
+    background-color: #2c641b;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 15px;
+    box-shadow: 2px 1px 11px 3px rgba(25,128,49,0.75);
+}
+.venmo:hover{
+    color: #2c641b;
+    background-color: white
+}
+
+.scripture {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    padding:25px;
+    justify-content: center;
+    text-align: center;
+}
+.leftSide1, .rightSide1 {
+    width: 290px;
+    box-sizing: border-box;
+}
+.scripture h2{
+    font-family: 'Righteous', cursive;
+}
+.scripture address {
+    font-size: 20px;
+}
+.footer {
+    width: 100%;
+    background-color: #2c641b;
+    color: white;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+.footer a{
+    color: white;
+    font-size: 26px;
+    text-decoration: none;
+}

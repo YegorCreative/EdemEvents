@@ -1,0 +1,30 @@
+@media screen and (max-width: 1023px){
+    .logoE{
+        width: 110px;
+    }
+    .fiveGuys {
+        flex-wrap: wrap;
+    }
+    .seeYou h1{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 767px){
+    .meesh{
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+    .leftSide, .rightSide {
+        width: 100%;
+        align-items: center;
+    }
+    .scripture{
+        flex-wrap:wrap-reverse;
+    }
+    .seeYou h1{
+        font-size: 25px;
+    }
+    .footer h1{
+        font-size: 18px;
+    }
+}
