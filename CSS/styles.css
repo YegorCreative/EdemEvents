@@ -215,3 +215,8 @@ width: 290px;
     font-size: 26px;
     text-decoration: none;
 }
+.payNow{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px;
+}
