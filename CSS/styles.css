@@ -219,6 +219,8 @@ width: 290px;
     width: 100%;
     box-sizing: border-box;
     padding: 30px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
 }
 .contactUs{
     width: 100%;
