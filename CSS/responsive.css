@@ -3,22 +3,13 @@
         width: 110px;
         margin-top: -150px;
     }
-    .fiveGuys {
-        flex-wrap: wrap;
-    }
+    
     .seeYou h1{
         font-size: 40px;
     }
 }
 @media screen and (max-width: 767px){
-    .meesh{
-        flex-wrap: wrap;
-        margin-top: -240px;
-    }
-    .leftSide, .rightSide {
-        width: 100%;
-        align-items: center;
-    }
+    
     .scripture{
         flex-wrap:wrap-reverse;
     }
@@ -32,23 +23,11 @@
         font-size: 20px;
         padding: 10px;
     }
-    .smallNotice{
-        font-size: 16px;
-    }
-    .iFrame iframe{
-        height: 1700px;
-    }
+    
+    
     .comtactUs{
         flex-direction: column;
         
     }
 
-}
-@media screen and (max-width: 424px){
-    .iFrame{
-        height:auto;
-    }
-    .theAddres iframe {
-        height: 200px;
-    }
 }
