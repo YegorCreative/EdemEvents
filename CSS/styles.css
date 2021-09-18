@@ -175,6 +175,37 @@ width: 180px;
 .allGifs{
     width: 100%;
     box-sizing: border-box;
-    padding: 25px;
+    padding: 4px;
     display: flex;
+    height: auto;
+    flex-wrap: wrap;
+}
+.divGiff{
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+.girl{
+    
+    overflow: hidden;
+}
+.hotoTextp{
+    max-width: 920px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Righteous', cursive;
+  font-size: 100%;
+  text-shadow:5px 5px 10px black;
+}
+span{
+    width: 100%;
+    background-color: rgba(47, 50, 255, 0.37);
+    height: 100%;
+    position: absolute;
 }
