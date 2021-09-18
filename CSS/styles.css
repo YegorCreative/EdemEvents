@@ -172,3 +172,9 @@ width: 180px;
     font-family: 'Righteous', cursive;
     font-size: 35px;
 }
+.allGifs{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 25px;
+    display: flex;
+}
