@@ -233,3 +233,13 @@ span{
     background-color:rgb(2, 87, 40);
     padding:5px;
 }
+.googleForms{
+    width: 100%;
+    height: 100Vh;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: rgb(196, 240, 235);
+}
+.googleForms iframe{
+    height: 100%;
+}
