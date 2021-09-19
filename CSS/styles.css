@@ -40,8 +40,9 @@ body {
     background-repeat: no-repeat;
     position: relative;
 }
-.firstBox h2 {
+.firstInfo h2 {
     max-width: 650px;
+    padding: 10px;
 }
 .banner1{
     min-width: 320px;
