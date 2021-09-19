@@ -38,6 +38,10 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+}
+.firstBox h2 {
+    max-width: 650px;
 }
 .banner1{
     min-width: 320px;
@@ -46,9 +50,7 @@ body {
 }
 .firstInfo{
     width: 100%;
-   
     box-sizing: border-box;
-    margin-top: -30%;
     display: flex;
     justify-content: center;
     
@@ -56,15 +58,14 @@ body {
     text-align: center;
 }
 .logoE{
+    position: absolute;
+    top: 10px;
+    left: 10px;
 width: 180px;
 }
 .firstInfo h1{
     font-family: 'Righteous', cursive;
     font-size: 25px;
-}
-.palm{
-    margin-top: -20px;
-    overflow: hidden;
 }
 .summer{
     max-width: 440px;
@@ -82,7 +83,7 @@ width: 180px;
 
 }
 .roadTrip img{
-    max-width: 550px;
+    max-width: 450px;
 }
 
 .seeYou {
@@ -242,4 +243,24 @@ span{
 }
 .googleForms iframe{
     height: 100%;
+}
+.buyNow{
+    width: 190px;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgb(50, 112, 205);
+    margin: 10px;
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    box-shadow: 3px 3px 12px rgb(7, 126, 33);
+    border-radius: 15px;
+}
+.purchase{
+    width: 100%; box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
