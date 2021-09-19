@@ -237,7 +237,7 @@ span{
 }
 .googleForms{
     width: 100%;
-    height: 100Vh;
+    height: 1000px;
     box-sizing: border-box;
     padding: 20px;
     background-color: rgb(196, 240, 235);
