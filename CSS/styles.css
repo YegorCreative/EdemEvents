@@ -190,6 +190,7 @@ width: 180px;
     overflow: hidden;
 }
 .hotoTextp{
+    width: 100%;
     max-width: 920px;
     box-sizing: border-box;
     text-align: center;
@@ -200,7 +201,7 @@ width: 180px;
   transform: translate(-50%, -50%);
   color: white;
   font-family: 'Righteous', cursive;
-  font-size: 18px;
+  font-size: 14px;
   text-shadow:5px 5px 10px black;
 }
 span{
