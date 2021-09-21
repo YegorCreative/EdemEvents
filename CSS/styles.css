@@ -34,10 +34,7 @@ body {
     justify-content:center;
     align-items: center;
     flex-direction: column;
-    background-image: url(../Assets/pattern1.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    
     position: relative;
 }
 .firstInfo h2 {
@@ -51,6 +48,8 @@ body {
 }
 .firstInfo{
     width: 100%;
+    padding-bottom: 30px;
+    padding-top: 30px;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
