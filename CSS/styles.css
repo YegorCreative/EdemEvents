@@ -264,3 +264,11 @@ span{
     align-items: center;
     padding: 20px;
 }
+
+.aboutTatiana{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
