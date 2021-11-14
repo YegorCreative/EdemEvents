@@ -18,13 +18,38 @@ body {
     font-family: 'Roboto', sans-serif;
     position: relative;
 }
-.mainContainer{
+.mainContainer, #mainChristmass, .letsSay{
     width: 100%;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
+#mainChristmass{
+    width: 100%;
+    background-image: url(../Assets/newBackground.png);
+    background-size: cover;
+}
+.letsSay{
+    padding: 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: gold;
+}
+.letsSay h1{
+    font-family: 'Righteous', cursive;
+    color: gold;
+    font-size: 60px;
+    text-shadow:5px 5px 10px green;
+}
+.letsSay img{
+    
+}
+
+
+
+
 .firstBox{
     min-width: 320px;
     width: 100%;
@@ -40,6 +65,10 @@ body {
 .firstInfo h2 {
     max-width: 650px;
     padding: 10px;
+    color: white;
+    font-family: 'Righteous', cursive;
+    text-shadow:3px 3px 5px red;
+    font-size: 35px;
 }
 .banner1{
     min-width: 320px;
@@ -48,12 +77,11 @@ body {
 }
 .firstInfo{
     width: 100%;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
-    
     flex-direction: column;align-items: center;
     text-align: center;
 }
@@ -239,7 +267,7 @@ span{
     height: 1000px;
     box-sizing: border-box;
     padding: 20px;
-    background-color: rgb(196, 240, 235);
+    background-color: rgb(7, 126, 33);
 }
 .googleForms iframe{
     height: 100%;
@@ -271,4 +299,17 @@ span{
     padding: 20px;
     display: flex;
     justify-content: center;
+}
+
+.christmas{
+    margin: 0 auto;
+    padding: 25px;
+}
+.giff{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    flex-direction: column;
 }
