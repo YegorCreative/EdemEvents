@@ -150,7 +150,11 @@ body {
 .second{
     color: white;
 }
-
+.second h2, .second h1{
+    background-color: rgba(6, 90, 27, 0.432);
+    border-radius: 15px;
+    padding 3px
+}
 
 
 
