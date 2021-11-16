@@ -33,7 +33,7 @@ body {
     width: 100%;
     background-image: url(../Assets/newBackground.png);
     background-size: cover;
-    
+    box-sizing: border-box;
 }
 .letsSay{
     padding: 25px;
@@ -61,8 +61,10 @@ body {
     align-items: center;
     margin: 0 auto;
     text-align: center;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;  
+}
+.bibleVerse h1{
+    font-size: 20px;
 }
 .around{
     width: 100%;
@@ -82,7 +84,7 @@ body {
 .around2{
     width: 100%;
     box-sizing: border-box;
-    font-size: 30px;
+    font-size: 18px;
     color: yellow ;
     text-shadow:3px 3px 5px rgb(150, 13, 13);
     padding: 15px;
@@ -95,6 +97,7 @@ body {
     color: yellow;
     padding: 15px;
     background-color: rgba(7, 95, 66, 0.267);
+    font-size: 18px;
 }
 
 
@@ -119,7 +122,7 @@ body {
     color: white;
     font-family: 'Nanum Myeongjo', serif;
     text-shadow:3px 3px 5px red;
-    font-size: 35px;
+    font-size: 20px;
 }
 .banner1{
     min-width: 320px;
@@ -142,10 +145,7 @@ body {
     left: 10px;
     width: 130px;
 }
-.firstInfo h1{
-    font-family: 'Righteous', cursive;
-    font-size: 25px;
-}
+
 
 .second{
     color: white;
@@ -154,6 +154,7 @@ body {
     background-color: rgba(6, 90, 27, 0.432);
     border-radius: 15px;
     padding: 3px;
+    font-size: 16px;
 }
 
 
