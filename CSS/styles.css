@@ -13,11 +13,13 @@ body {
     font-size: 16px;
     background-color: #0000;
     color:black;
+    text-align: center;
     /*
     font-family: 'Nanum Myeongjo', serif;
     font-family: 'Zilla Slab', serif;*/
     font-family: 'Zilla Slab', serif;
     position: relative;
+    
 }
 .mainContainer, #mainChristmass, .letsSay{
     width: 100%;
@@ -25,11 +27,13 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    
 }
 #mainChristmass{
     width: 100%;
     background-image: url(../Assets/newBackground.png);
     background-size: cover;
+    
 }
 .letsSay{
     padding: 25px;
@@ -43,9 +47,11 @@ body {
     color: gold;
     font-size: 60px;
     text-shadow:5px 5px 10px green;
+    background-color: rgba(7, 95, 66, 0.267);
 }
-.bibleVerse{
+.bibleVerse, .second{
     max-width: 868px;
+    box-sizing: border-box;
     width: 100%;
     font-family: 'Nanum Myeongjo', serif;
     padding: 10px;
@@ -56,8 +62,11 @@ body {
     margin: 0 auto;
     text-align: center;
     text-transform: uppercase;
+    
 }
 .around{
+    width: 100%;
+    box-sizing: border-box;
     font-size: 35px;
     color: yellow;
     font-family: 'Nanum Myeongjo', serif;
@@ -66,17 +75,26 @@ body {
     text-align: center;
     text-shadow:3px 3px 5px red;
     font-style: italic;
+    background-color: rgb(150, 13, 13);
+    background-color: rgba(7, 95, 66, 0.267);
 }
 
 .around2{
+    width: 100%;
+    box-sizing: border-box;
     font-size: 30px;
     color: yellow ;
     text-shadow:3px 3px 5px rgb(150, 13, 13);
     padding: 15px;
+    background-color: rgba(7, 95, 66, 0.267);
 }
 .bibleVerse h2{
     border: 2px solid white;
     border-radius: 15px;
+    text-shadow:3px 3px 5px rgb(150, 13, 13);
+    color: yellow;
+    padding: 15px;
+    background-color: rgba(7, 95, 66, 0.267);
 }
 
 
@@ -128,58 +146,15 @@ body {
     font-family: 'Righteous', cursive;
     font-size: 25px;
 }
-.summer{
-    max-width: 440px;
-    margin: 0 auto;
-    box-sizing: border-box;
-    padding: 20px;
-}
-.roadTrip{
-    width: 100%;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
 
-}
-.roadTrip img{
-    max-width: 450px;
-}
-
-.seeYou {
-    width: 100%;
-    box-sizing: border-box;
-    position: relative;
-    display: flex;
-    align-items: center;
-    
-    background-size: cover;
-    flex-direction: column;
-    justify-content: center;
+.second{
+    color: white;
 }
 
 
-.scripture {
-    width: 100%;
-    box-sizing: border-box;
-    display: flex;
-    padding:25px;
-    justify-content: center;
-    text-align: center;
-    flex-wrap: wrap;
-}
-.leftSide1, .rightSide1 {
-    max-width: 520px;
-    width: 100%;
-    box-sizing: border-box;
-}
-.scripture h2{
-    font-family: 'Righteous', cursive;
-}
-.scripture address {
-    font-size: 20px;
-}
+
+
+
 .footer {
     width: 100%;
     background-color: #2c641b;
@@ -188,7 +163,7 @@ body {
     padding: 10px;
     padding-bottom: 20px;
     text-align: center;
-    font-family: 'Righteous', cursive;
+    font-family: 'Zilla Slab', serif;
 }
 .footer a{
     color: white;
@@ -196,13 +171,7 @@ body {
     text-decoration: none;
 }
 
-.payNow h3{
-    max-width: 750px;
-    margin: 0 auto;
-    box-sizing: border-box;
-    padding: 20px;
-    color: #2c641b;
-}
+
 .contactUs{
     width: 100%;
     box-sizing: border-box;
@@ -233,68 +202,13 @@ body {
 .contactH2{
     width: 100%;
     text-align: center;
-    font-family: 'Righteous', cursive;
+    font-family: 'Zilla Slab', serif;
     font-size: 35px;
 }
-.allGifs{
-    width: 100%;
-    box-sizing: border-box;
-    padding: 4px;
-    display: flex;
-    height: auto;
-    flex-wrap: wrap;
-}
-.divGiff{
-    width: 100%;
-    box-sizing: border-box;
-    position: relative;
-}
-.girl{
-    
-    overflow: hidden;
-}
-.hotoTextp{
-    width: 100%;
-    max-width: 920px;
-    box-sizing: border-box;
-    text-align: center;
-    padding: 10px;
-    position: absolute;
-    top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-family: 'Righteous', cursive;
-  font-size: 14px;
-  text-shadow:5px 5px 10px black;
-}
-span{
-    width: 100%;
-    background-color: rgba(47, 50, 255, 0.37);
-    height: 100%;
-    position: absolute;
-}
-.photoText{
-    width: 100%;
-    
-    margin-top: 0 auto;
-    box-sizing: border-box;
-    text-align: center;
-    padding: 20px; 
-    padding-top: 40px;
-    padding-bottom: 40px;
-  color: white;
-  font-family: 'Righteous', cursive;
-  font-size: 14px;
-  background-color: rgb(248, 248, 205);
-  background-image: url(../Assets/ecualipt@2x.png);
-}
-.photoText h1{
-    max-width: 650px;
-    margin: 0 auto;
-    background-color:rgb(2, 87, 40);
-    padding:5px;
-}
+
+
+
+
 
 .buyNow{
     width: 190px;
