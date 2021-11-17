@@ -242,3 +242,7 @@ body {
     margin: 0 auto;
     padding: 25px;
 }
+
+.videoWrapper iframe{
+    border-radius: 25px;
+}
