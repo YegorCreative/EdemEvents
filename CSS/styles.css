@@ -253,4 +253,18 @@ body {
     align-items: center;
     padding: 25px;
     box-sizing: border-box;
+    flex-direction: column;
+}
+.guestSpeaker img{
+    max-width: 400px;
+    border-radius: 50px;
+    box-shadow: 
+    0 0 0 5px #2c641b,
+    0 0 0 10px #54ad38,
+    0 0 0 15px #82fc5d,
+    0 0 0 20px yellow ;
+}
+.guestSpeaker h1{
+    color: white;
+    font-size: 55px;
 }
