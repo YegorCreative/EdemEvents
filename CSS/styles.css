@@ -246,3 +246,11 @@ body {
 .videoWrapper iframe{
     border-radius: 25px;
 }
+.guestSpeaker{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    box-sizing: border-box;
+}
